@@ -10,7 +10,6 @@
 **Name:** Harshit Verma  
 **Email:** [therealharshit014@gmail.com](therealharshit014@gmail.com)  
 **GitHub:** [therealharshit](https://github.com/therealharshit)   
-**Blogs** [Harshit Verma](https://www.sugarlabs.org/authors/harshit-verma)  
 **Organization:** [Sugar Labs](https://www.sugarlabs.org/)  
 **Project:** [LLM-powered Debugger for Pippy](https://github.com/sugarlabs/Pippy/issues/95)  
 **Mentors:** [Walter Bender](https://github.com/walterbender), [Ibiam Chihurumnaya](https://github.com/chimosky), [Kshitij Shah](https://github.com/kshitijdshah99)  
@@ -43,12 +42,15 @@ The proposed Pippy Debugger builds on the idea of **guiding learners through a d
 ## Methodology  
 
 ### Tools & Technologies Used  
-- **FastAPI** – for building the backend `/debug` endpoint.  
-- **Sugar AI** – centralized inference system powering the debugger.  
-- **LLMs** – primarily **Mistral 7B** and later **Gemma-3-27B-IT** for improved responses.  
-- **GTK 3** – for UI integration in Pippy.  
-- **LangChain** – to chain multiple LLM calls for better prompt workflows.  
-- **Markdown Parsing** – custom parser to display responses clearly in the debugging terminal.  
+
+- **Python** – Core programming language.  
+- **FastAPI** – Backend framework for the `/debug` endpoint.  
+- **LangChain** – To chain multiple LLM calls for better workflows.  
+- **Hugging Face Transformers** – For integrating **Mistral 7B**.   
+- **Google Gen AI** – For running **Gemma-3-27B-IT**.  
+- **GTK 3** – For UI integration in Pippy.  
+- **Sugar AI** – Central inference system connecting Pippy with LLMs.  
+- **Custom Markdown Parser** – To render responses in the Debug Terminal.  
 
 ### Workflow  
 1. Learner writes Python code in **Pippy**.  
@@ -116,20 +118,45 @@ The proposed Pippy Debugger builds on the idea of **guiding learners through a d
 ## Resources
 
 ### Code Repositories  
-- [Pippy Debugger Backend](https://github.com/sugarlabs/pippy-debugger-backend)  
-- [Sugar AI](https://github.com/sugarlabs/sugar-ai)  
-- [Pippy](https://github.com/sugarlabs/Pippy)  
+
+- **[Pippy Debugger Backend](https://github.com/sugarlabs/pippy-debugger-backend)**  
+- **[Sugar AI](https://github.com/sugarlabs/sugar-ai)**  
+- **[Pippy](https://github.com/sugarlabs/Pippy)**  
 
 ### Pull Requests  
-- [Sugar AI: Add /debug endpoint for Pippy Debugger #28](https://github.com/sugarlabs/sugar-ai/pull/28)  
-- [Pippy: Pippy Debugger Integration #113](https://github.com/sugarlabs/Pippy/pull/113)
+- **[Sugar AI: Add /debug endpoint for Pippy Debugger #28](https://github.com/sugarlabs/sugar-ai/pull/28)**  
+- **[Pippy: Pippy Debugger Integration #113](https://github.com/sugarlabs/Pippy/pull/113)**
 
 ### Docs
-- [Responses from the Debugger](https://docs.google.com/document/d/1zy0udbisHH9ZMHo3ln6tbKVYhPTRfw4cs9N0g3W_CKg/edit?usp=sharing)  
+- **[Responses from the Debugger](https://docs.google.com/document/d/1zy0udbisHH9ZMHo3ln6tbKVYhPTRfw4cs9N0g3W_CKg/edit?usp=sharing)**  
+
+### Blogs
+
+- **[Weekly Blogs](https://www.sugarlabs.org/authors/harshit-verma)**   
+
+
+## Key Learnings  
+
+### Frameworks and Tools  
+- Gained hands-on experience with **FastAPI** by building and refining the `/debug` endpoint.  
+- Learned to integrate **LangChain** for chaining multiple LLM calls and improving prompt workflows.  
+- Worked with **Hugging Face Transformers** and **Google Gen AI APIs** to run and test **LLMs** like **Mistral 7B** and **Gemma-3-27B-IT**.  
+- Built a **custom Markdown parser** and explored **GTK 3 widgets** for UI integration in Pippy.  
+
+### APIs and Backend Development  
+- Improved understanding of designing API request/response schemas to enable clean communication between Sugar-AI and Pippy.  
+- Implemented error handling, response validation, and threading for a more reliable and responsive system.  
+
+### Prompt Engineering  
+- Learned the importance of refining prompts to make debugging responses **child-friendly** and age-appropriate.  
+- Experimented with **contextualization** and **code-first workflows** to guide learners before debugging.  
+
+### Deployment and Infrastructure  
+- Learned how to **dockerize applications** and deploy them on **AWS EC2** for scalable and efficient model inference.
 
 ## Conclusion  
 
-The Pippy Debugger successfully laid the foundation for an **AI-powered debugging assistant** tailored for children. With the ability to display contextual explanations, simplify errors, and guide learners through debugging, the project moves one step closer to making programming education more accessible and engaging.  
+The Pippy Debugger successfully laid the foundation for the **LLM-powered debugger** tailored for children. With the ability to display contextual explanations, simplify errors, and guide learners through debugging, the project moves one step closer to making programming education more accessible and engaging.  
 
 ## Acknowledgment  
 
