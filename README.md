@@ -112,8 +112,8 @@ The proposed Pippy Debugger builds on the idea of **guiding learners through a d
   2. ![Debug Terminal](public/assets/Pippy-UI03.png)  
 
 
-### Video  
-[Watch Demo](https://drive.google.com/file/d/1zOzEthdjRFpUnj-tRhF7dghteNTd7-Bs/view?usp=sharing)  
+### Project Demo  
+[Watch Vedio](https://drive.google.com/file/d/1APnZja9uzX197zNhyT4xZ2wRJTvH0wIN/view?usp=sharing)  
 
 ## Resources
 
