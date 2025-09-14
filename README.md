@@ -113,7 +113,7 @@ The proposed Pippy Debugger builds on the idea of **guiding learners through a d
 
 
 ### Project Demo  
-[Watch Vedio](https://drive.google.com/file/d/1APnZja9uzX197zNhyT4xZ2wRJTvH0wIN/view?usp=sharing)  
+[Watch Video](https://drive.google.com/file/d/1APnZja9uzX197zNhyT4xZ2wRJTvH0wIN/view?usp=sharing)  
 
 ## Resources
 
@@ -126,6 +126,7 @@ The proposed Pippy Debugger builds on the idea of **guiding learners through a d
 ### Pull Requests  
 - **[Sugar AI: Add /debug endpoint for Pippy Debugger #28](https://github.com/sugarlabs/sugar-ai/pull/28)**  
 - **[Pippy: Pippy Debugger Integration #113](https://github.com/sugarlabs/Pippy/pull/113)**
+- **[Help Activity: Add Debugger docs to Pippy #121](https://github.com/godiard/help-activity/pull/121)**
 
 ### Docs
 - **[Responses from the Debugger](https://docs.google.com/document/d/1zy0udbisHH9ZMHo3ln6tbKVYhPTRfw4cs9N0g3W_CKg/edit?usp=sharing)**  
